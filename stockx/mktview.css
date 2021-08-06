@@ -1,0 +1,21 @@
+.item{
+    display:flex;
+    justify-content:center;
+    justify-content: space-evenly;
+}
+.item4{
+    display:flex;
+}
+.item5{
+padding-left: 200px;
+}
+
+
+.item6{
+padding-left:330px;
+}
+
+
+.item7{
+padding-left: 340px;        
+}

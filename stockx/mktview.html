@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="mktview.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+   
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+      <a href="index.html">
+          <img src="images/stockx-vector-logo.png" alt="" width="130px" height="70px">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="align">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html"
+                          style="font-family: 'New Tegomin', serif;">Home</a>
+                  </li>
+
+                  <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                      <ul class="navbar-nav">
+                          <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#"
+                                  style="font-family: 'New Tegomin', serif;" id="navbarDarkDropdownMenuLink"
+                                  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Features
+                              </a>
+                              <ul class="dropdown-menu dropdown-menu-dark"
+                                  aria-labelledby="navbarDarkDropdownMenuLink">
+                                  <li><a class="dropdown-item" href="chart.html"
+                                          style="font-family: 'New Tegomin', serif;">Real Time
+                                          Stock Charts</a></li>
+                                  <li><a class="dropdown-item" href="mktview.html"
+                                          style="font-family: 'New Tegomin', serif;">Market
+                                          Overview</a></li>
+                                  <li><a class="dropdown-item" href="mktdata.html"
+                                          style="font-family: 'New Tegomin', serif;">Market
+                                          Data</a></li>
+                              </ul>
+                          </li>
+                      </ul>
+                  </div>
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="contactus.html" style="font-family: 'New Tegomin', serif;">Contact
+                          Us</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="aboutus.html" style="font-family: 'New Tegomin', serif;">About
+                          Us</a>
+                  </li>
+
+              </ul>
+
+          </div>
+      </div>
+  </div>
+</nav>
+
+
+    <br>
+    <h1 style="text-align:center; font-family: 'New Tegomin', serif">International Market Overview</h1>
+    <br><br><br>
+
+
+<div class="item4">
+
+<div class="item5">
+<h1>Stocks</h1>
+</div>
+
+<div class="item6">
+<h1>Indices</h1>
+</div>
+
+<div class="item7">
+<h1>Forex</h1>
+</div>
+</div>
+
+<br>
+   <div class="item">
+       <div class="item1">
+           <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/markets/stocks-india/" rel="noopener" target="_blank"></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+    {
+    "title": "Stocks",
+    "tabs": [
+      {
+        "title": "Financial",
+        "symbols": [
+          {
+            "s": "NYSE:JPM",
+            "d": "Jpmorgan Chase & Co"
+          },
+          {
+            "s": "NYSE:WFC",
+            "d": "Wells Fargo Co New"
+          },
+          {
+            "s": "NYSE:BAC",
+            "d": "Bank Amer Corp"
+          },
+          {
+            "s": "NYSE:HSBC",
+            "d": "Hsbc Hldgs Plc"
+          },
+          {
+            "s": "NYSE:C",
+            "d": "Citigroup Inc"
+          },
+          {
+            "s": "NYSE:MA",
+            "d": "Mastercard Incorporated"
+          }
+        ]
+      },
+      {
+        "title": "Technology",
+        "symbols": [
+          {
+            "s": "NASDAQ:AAPL",
+            "d": "Apple"
+          },
+          {
+            "s": "NASDAQ:GOOGL",
+            "d": "Google Inc"
+          },
+          {
+            "s": "NASDAQ:MSFT",
+            "d": "Microsoft Corp"
+          },
+          {
+            "s": "NASDAQ:FB",
+            "d": "Facebook Inc"
+          },
+          {
+            "s": "NYSE:ORCL",
+            "d": "Oracle Corp"
+          },
+          {
+            "s": "NASDAQ:INTC",
+            "d": "Intel Corp"
+          }
+        ]
+      },
+      {
+        "title": "Services",
+        "symbols": [
+          {
+            "s": "NASDAQ:AMZN",
+            "d": "Amazon Com Inc"
+          },
+          {
+            "s": "NYSE:BABA",
+            "d": "Alibaba Group Hldg Ltd"
+          },
+          {
+            "s": "NYSE:T",
+            "d": "At&t Inc"
+          },
+          {
+            "s": "NYSE:WMT",
+            "d": "Wal-mart Stores Inc"
+          },
+          {
+            "s": "NYSE:V",
+            "d": "Visa Inc"
+          }
+        ]
+      }
+    ],
+    "width": 400,
+    "height": 660,
+    "showChart": true,
+    "locale": "in",
+    "plotLineColorGrowing": "rgba(33, 150, 243, 1)",
+    "plotLineColorFalling": "rgba(33, 150, 243, 1)",
+    "belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
+    "belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
+    "gridLineColor": "#F0F3FA",
+    "scaleFontColor": "rgba(120, 123, 134, 1)",
+    "showSymbolLogo": true,
+    "symbolActiveColor": "rgba(33, 150, 243, 0.12)",
+    "colorTheme": "light"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+       </div>
+
+       <div class="item2">
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/markets/indices/" rel="noopener" target="_blank"></a> </div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+    {
+    "title": "Indices",
+    "tabs": [
+      {
+        "title": "US & Canada",
+        "title_raw": "US & Canada",
+        "symbols": [
+          {
+            "s": "FOREXCOM:SPXUSD",
+            "d": "S&P 500"
+          },
+          {
+            "s": "FOREXCOM:NSXUSD",
+            "d": "Nasdaq 100"
+          },
+          {
+            "s": "CME_MINI:ES1!",
+            "d": "S&P 500"
+          },
+          {
+            "s": "INDEX:DXY",
+            "d": "U.S. Dollar Currency Index"
+          },
+          {
+            "s": "FOREXCOM:DJI",
+            "d": "Dow 30"
+          }
+        ]
+      },
+      {
+        "title": "Europe",
+        "title_raw": "Europe",
+        "symbols": [
+          {
+            "s": "INDEX:SX5E",
+            "d": "Euro Stoxx 50"
+          },
+          {
+            "s": "FOREXCOM:UKXGBP",
+            "d": "UK 100"
+          },
+          {
+            "s": "INDEX:DEU30",
+            "d": "DAX Index"
+          },
+          {
+            "s": "INDEX:CAC40",
+            "d": "CAC 40 Index"
+          },
+          {
+            "s": "INDEX:SMI"
+          }
+        ]
+      },
+      {
+        "title": "Asia/Pacific",
+        "title_raw": "Asia/Pacific",
+        "symbols": [
+          {
+            "s": "INDEX:NKY",
+            "d": "Nikkei 225"
+          },
+          {
+            "s": "INDEX:HSI",
+            "d": "Hang Seng"
+          },
+          {
+            "s": "BSE:SENSEX",
+            "d": "BSE SENSEX"
+          },
+          {
+            "s": "BSE:BSE500"
+          },
+          {
+            "s": "INDEX:KSIC",
+            "d": "Kospi Composite"
+          }
+        ]
+      }
+    ],
+    "width": 400,
+    "height": 660,
+    "showChart": true,
+    "locale": "in",
+    "plotLineColorGrowing": "rgba(33, 150, 243, 1)",
+    "plotLineColorFalling": "rgba(33, 150, 243, 1)",
+    "belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
+    "belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
+    "gridLineColor": "#F0F3FA",
+    "scaleFontColor": "rgba(120, 123, 134, 1)",
+    "showSymbolLogo": true,
+    "symbolActiveColor": "rgba(33, 150, 243, 0.12)",
+    "colorTheme": "light"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+       </div>
+
+       <div class="item3">
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/markets/currencies/" rel="noopener" target="_blank"></a> </div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+    {
+    "title": "Currencies",
+    "tabs": [
+      {
+        "title": "Major",
+        "title_raw": "Major",
+        "symbols": [
+          {
+            "s": "FX_IDC:EURUSD"
+          },
+          {
+            "s": "FX_IDC:USDJPY"
+          },
+          {
+            "s": "FX_IDC:GBPUSD"
+          },
+          {
+            "s": "FX_IDC:AUDUSD"
+          },
+          {
+            "s": "FX_IDC:USDCAD"
+          },
+          {
+            "s": "FX_IDC:USDCHF"
+          }
+        ],
+        "quick_link": {
+          "title": "More majors",
+          "href": "/markets/currencies/rates-major/"
+        }
+      },
+      {
+        "title": "Minor",
+        "title_raw": "Minor",
+        "symbols": [
+          {
+            "s": "FX_IDC:EURGBP"
+          },
+          {
+            "s": "FX_IDC:EURJPY"
+          },
+          {
+            "s": "FX_IDC:GBPJPY"
+          },
+          {
+            "s": "FX_IDC:CADJPY"
+          },
+          {
+            "s": "FX_IDC:GBPCAD"
+          },
+          {
+            "s": "FX_IDC:EURCAD"
+          }
+        ],
+        "quick_link": {
+          "title": "More minors",
+          "href": "/markets/currencies/rates-minor/"
+        }
+      },
+      {
+        "title": "Exotic",
+        "title_raw": "Exotic",
+        "symbols": [
+          {
+            "s": "FX_IDC:USDSEK"
+          },
+          {
+            "s": "FX_IDC:USDMXN"
+          },
+          {
+            "s": "FX_IDC:USDZAR"
+          },
+          {
+            "s": "FX_IDC:EURTRY"
+          },
+          {
+            "s": "FX_IDC:EURNOK"
+          },
+          {
+            "s": "FX_IDC:GBPPLN"
+          }
+        ],
+        "quick_link": {
+          "title": "More exotics",
+          "href": "/markets/currencies/rates-exotic/"
+        }
+      }
+    ],
+    "title_link": "/markets/currencies/rates-major/",
+    "width": 400,
+    "height": 660,
+    "showChart": true,
+    "locale": "in",
+    "plotLineColorGrowing": "rgba(33, 150, 243, 1)",
+    "plotLineColorFalling": "rgba(33, 150, 243, 1)",
+    "belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
+    "belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
+    "gridLineColor": "#F0F3FA",
+    "scaleFontColor": "rgba(120, 123, 134, 1)",
+    "showSymbolLogo": true,
+    "symbolActiveColor": "rgba(33, 150, 243, 0.12)",
+    "colorTheme": "light"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+       </div>
+   </div>
+
+</body>
+
+</html>

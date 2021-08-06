@@ -1,0 +1,138 @@
+
+#SearchList{
+    background-color: #f7f7f7;
+    width: 500px;
+    margin: 0 auto;
+    /* margin-top: ; */
+}
+
+#SearchList li , a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.x{
+    margin-left: 15px;
+    margin-right: -15px;
+}
+.margin{
+    width: 100%;
+}
+.white{
+    color: white;
+}
+.item{
+    display:flex;
+}
+.item1{
+padding-left: 73px;
+}
+.item2{
+padding-left: 597px;
+}
+.container{
+    display:flex;
+    
+}
+.container1{
+    padding-left: 65px;
+}  
+.container3{
+    padding-top: 40px;
+} 
+ .container4{
+display:flex;
+}  
+
+.container5{
+    padding-left: 73px;
+}  
+
+.container6
+{
+    padding-left: 65px;
+}
+
+.align{
+display: flex;}
+
+.align1{
+    padding-left: 73px;
+
+}
+
+.align2{
+    padding-left: 625px;
+
+}
+
+.tradingview-widget-container{
+    margin-bottom: -35px;
+}
+ /* .sbar{
+    border: 5px solid black;
+}  */
+
+form{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid white;
+    padding: 5px;
+}
+
+input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #07051a;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+form:hover{
+    width: 200px;
+    cursor: pointer;
+}
+
+form:hover input{
+    display: block;
+}
+
+form:hover .fa{
+    background: #07051a;
+    color: white;
+}
+
+.card2{
+    background-color:#faffff
+    ;
+}
